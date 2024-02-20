@@ -2,12 +2,12 @@
     "name": "sureshinde/mobile-desktop-detect",
     "description": "Desktop/mobile user agent parser with support for Laravel, based on Mobiledetect",
     "keywords": ["laravel", "useragent", "agent", "user agent", "browser", "platform", "mobile", "desktop"],
-    "homepage": "https://github.com/jenssegers/agent",
+    "homepage": "https://github.com/sureshinde/mobile-desktop-detect",
     "license" : "MIT",
     "authors": [
         {
-            "name": "Jens Segers",
-            "homepage": "https://jenssegers.com"
+            "name": "Suresh Shinde",
+            "homepage": "https://sureshinde.com"
         }
     ],
     "require": {
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jenssegers\\Agent\\": "src/"
+            "SureShinde\\MobileDesktopDetect\\Agent\\": "src/"
         }
     },
     "extra": {

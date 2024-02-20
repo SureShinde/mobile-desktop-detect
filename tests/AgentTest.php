@@ -1,6 +1,6 @@
 <?php
 
-use Jenssegers\Agent\Agent;
+use SureShinde\MobileDesktopDetect\Agent;
 use PHPUnit\Framework\TestCase;
 
 class AgentTest extends TestCase
