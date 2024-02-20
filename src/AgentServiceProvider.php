@@ -1,6 +1,6 @@
 <?php
 
-namespace Jenssegers\Agent;
+namespace SureShinde\MobileDesktopDetect;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,12 +11,12 @@ class AgentServiceProvider extends ServiceProvider
      *
      * @var bool
      */
-    protected $defer = true;
+    protected bool $defer = true;
 
     /**
      * Register the service provider.
      */
-    public function register()
+    public function register(): void
     {
         $this->app->singleton('agent', function ($app) {
             return new Agent($app['request']->server());
@@ -30,7 +30,7 @@ class AgentServiceProvider extends ServiceProvider
      *
      * @return array
      */
-    public function provides()
+    public function provides(): array
     {
         return ['agent', Agent::class];
     }

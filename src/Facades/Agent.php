@@ -1,6 +1,6 @@
 <?php
 
-namespace Jenssegers\Agent\Facades;
+namespace SureShinde\MobileDesktopDetect\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
