@@ -4,7 +4,7 @@
     "keywords": ["laravel", "useragent", "agent", "user agent", "browser", "platform", "mobile", "desktop"],
     "homepage": "https://github.com/sureshinde/mobile-desktop-detect",
     "license" : "MIT",
-    "version": "3.0.3",
+    "version": "3.0.6",
     "authors": [
         {
             "name": "Suresh Shinde",
